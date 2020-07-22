@@ -1,0 +1,38 @@
+body
+{
+    background-image: linear-gradient(to right bottom, black, gray);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.image
+{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+
+#img1 { filter: none; }
+#img2 { filter: blur(5px); }
+#img3 { filter: brightness(200%); }
+#img4 { filter: contrast(200%); }
+#img5 { filter: drop-shadow(0 0 10px #fff); }
+#img6 { filter: grayscale(100%); }
+#img7 { filter: hue-rotate(90deg); }
+#img8 { filter: invert(100%); }
+#img9 { filter: opacity(0.2); }
+#img10 { filter: saturate(200%); }
+#img11 { filter: sepia(100%); }
+#img12 { filter: contrast(200%) brightness(150%); }
